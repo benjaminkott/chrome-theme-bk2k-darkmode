@@ -3,7 +3,7 @@
     "manifest_version": 2,
     "name": "BK2K Dark Mode",
     "short_name": "BK2KDM",
-    "description": "A theme that makes browsing a litte less... bright.",
+    "description": "A theme that makes browsing a litte... less bright.",
     "icons": {
       "16": "images/icon_16.png",
       "32": "images/icon_32.png",
