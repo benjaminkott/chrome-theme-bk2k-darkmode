@@ -1,8 +1,9 @@
 {
     "version": "1.0.1",
     "manifest_version": 2,
-    "name": "Developer",
-    "short_name": "Dev",
+    "name": "BK2K Dark Mode",
+    "short_name": "BK2KDM",
+    "description": "A theme that makes browsing a litte less... bright.",
     "icons": {
       "16": "images/icon_16.png",
       "32": "images/icon_32.png",
@@ -11,9 +12,21 @@
     },
     "theme": {
       "colors" : {
-        "frame": [50, 50, 50],
-        "frame_inactive": [70, 70, 70],
-        "toolbar" : [230, 230, 230]
+        "frame": [56, 56, 56],
+        "frame_inactive": [56, 56, 56],
+        "frame_incognito": [56, 56, 56],
+        "frame_incognito_inactive": [56, 56, 56],
+        "toolbar": [83, 83, 83],
+        "toolbar_inactive": [83, 83, 83],
+        "tab_text": [240, 240, 240],
+        "tab_background": [56, 56, 56],
+        "tab_background_text": [168, 168, 168],
+        "bookmark_text": [230, 230, 230],
+        "ntp_background": [40, 40, 40],
+        "ntp_text": [230, 230, 230]
+      },
+      "tints":{
+        "buttons": [0, 0, 0.75]
       }
     }
 }
